@@ -9,7 +9,7 @@ export const MainNav = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
+    <Navbar collapseOnSelect expand="lg" bg="light" sticky="top" className="py-3">
       <Container className="d-flex">
         <Navbar.Brand href="#home">Brand link</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

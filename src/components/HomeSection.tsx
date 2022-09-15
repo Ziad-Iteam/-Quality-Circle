@@ -32,7 +32,7 @@ export const HomeSection = () => {
     <div className="position-relative">
       <StyledImage src="./wallhaven-1jkl2w.jpg" alt="" />
       <StyledDiv>
-        <h1 className="display-1 my-5">{t("HomeSection.h1")}</h1>
+        <h1 className="display-1 my-2">{t("HomeSection.h1")}</h1>
         <p>
         {t("HomeSection.p")}
         </p>

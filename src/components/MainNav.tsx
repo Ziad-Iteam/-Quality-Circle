@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import { useTranslation } from "react-i18next";
 import { ReactComponent as ReactLogo } from "../assets/logo.svg";
+import { ReactComponent as ReactLogo2 } from "../assets/WhatsAppButtonWhiteSmall.svg";
+
 export const MainNav = () => {
   const { t, i18n } = useTranslation();
 
@@ -30,10 +32,7 @@ export const MainNav = () => {
               {" "}
               {t("MainNav.services")}
             </Nav.Link>
-            <Nav.Link href="#contactUs" className="navlink-with-style mx-3">
-              {" "}
-              {t("MainNav.contactUs")}
-            </Nav.Link>
+
             <Nav.Link href="#lang">
               <button
                 className="ms-auto button-with-style"
@@ -44,6 +43,11 @@ export const MainNav = () => {
               >
                 {i18n.language === "ar" ? "English" : "العربية"}
               </button>
+            </Nav.Link>
+            <Nav.Link href="#contactUs" className="mx-3">
+              <a href="https://wa.me/201552349490">
+                <ReactLogo2 />
+              </a>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -32,6 +32,14 @@ i18n
             mauris. Curabitur ut dui quis enim euismod vulputate. Nunc nec auctor
             urna, id ornare erat. Pellentesque blandit dapibus ligula,`,
           },
+          WhoWeAreSection: {
+            h1: "Lorem Ipsum",
+            p: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in
+            venenatis dui, non pellentesque turpis. Pellentesque scelerisque orci
+            quis rutrum volutpat. Ut ac enim pulvinar, bibendum erat id, volutpat
+            mauris. Curabitur ut dui quis enim euismod vulputate. Nunc nec auctor
+            urna, id ornare erat. Pellentesque blandit dapibus ligula,`,
+          },
         },
       },
       ar: {
@@ -42,6 +50,20 @@ i18n
             contactUs: "تواصل معنا",
           },
           HomeSection: {
+            h1: "لوريم ايبسوم",
+            p: `لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+            أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+            
+            أكسير سيتاشن يللأمكو لابورأس نيسي يت أليكيوب أكس أيا كوممودو كونسيكيوات . ديواس
+            
+            أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو فيجايت
+            
+            نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
+            
+            كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.`,
+          },
+          WhoWeAreSection: {
             h1: "لوريم ايبسوم",
             p: `لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
 

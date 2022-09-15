@@ -9,14 +9,11 @@ const StyledImage = styled.img`
   left: 0;
   right: 0;
   top: 0;
+  z-index: -10;
 `;
 const StyledDiv = styled.div`
   width: 50vw;
   height: calc(100vh - 80px);
-  position: absolute;
-  left: 25vw;
-  right: 25vw;
-  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +23,10 @@ const StyledDiv = styled.div`
   text-align: center;
 `;
 export const HomeSection = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
-    <div className="position-relative">
+    <div className="position-relative d-flex align-items-center justify-content-center" id="home">
       <StyledImage src="./wallhaven-1jkl2w.jpg" alt="" />
       <StyledDiv>
         <h1 className="display-1 my-2">{t("HomeSection.h1")}</h1>

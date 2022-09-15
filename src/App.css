@@ -2,9 +2,21 @@
     font-family: roc-grotesk, sans-serif;
     font-style: normal;
 }
-.btn-primary {
-    background-color: #363945 !important;
-}
 svg {
     height:32px;
+}
+.navlink-with-style{
+    border-bottom: solid 5px rgb(161, 161, 161);
+}
+.navlink-with-style:hover{
+    border-color: #565b6d;
+}
+.navlink-with-style.active{
+    border-color: #363945;
+}
+.button-with-style {
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+    border: none;
+    border-bottom: solid 5px rgb(161, 161, 161);
+    padding: 0.5rem;
 }

@@ -15,19 +15,19 @@ export const MainNav = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="mx-3" />
         <Navbar.Collapse id="responsive-navbar-nav" className="flex-grow-0">
           <Nav className="text-center d-flex align-items-center justify-content-center">
-            <Nav.Link href="#whoWeAre"> {t("MainNav.whoWeAre")}</Nav.Link>
-            <Nav.Link href="#services"> {t("MainNav.services")}</Nav.Link>
-            <Nav.Link href="#contactUs"> {t("MainNav.contactUs")}</Nav.Link>
+            <Nav.Link href="#whoWeAre" className="navlink-with-style mx-3"> {t("MainNav.whoWeAre")}</Nav.Link>
+            <Nav.Link href="#services"  className="navlink-with-style mx-3"> {t("MainNav.services")}</Nav.Link>
+            <Nav.Link href="#contactUs"  className="navlink-with-style mx-3"> {t("MainNav.contactUs")}</Nav.Link>
             <Nav.Link href="#lang">
-              <Button
-                className="ms-auto"
+              <button
+                className="ms-auto button-with-style"
                 onClick={() => {
                   i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
                   document.dir = i18n.language === "ar" ? "rtl" : "ltr";
                 }}
               >
                 {i18n.language === "ar" ? "English" : "العربية"}
-              </Button>
+              </button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

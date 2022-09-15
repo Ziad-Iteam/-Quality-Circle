@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { Footer } from "./components/Footer";
 import { HomeSection } from "./components/HomeSection";
 import { MainNav } from "./components/MainNav";
 import { ServicesSection } from "./components/ServicesSection";
@@ -10,9 +11,9 @@ function App() {
     <div>
       <MainNav />
       <HomeSection />
-      <WhoWeAreSection/>
-      <hr className="w-50 mx-auto"/>
-      <ServicesSection/>
+      <WhoWeAreSection />
+      <ServicesSection />
+      <Footer />
     </div>
   );
 }

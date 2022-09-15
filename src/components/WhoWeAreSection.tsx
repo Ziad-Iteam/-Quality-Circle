@@ -16,7 +16,7 @@ export const WhoWeAreSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="d-flex align-items-center justify-content-center my-5">
+    <div className="d-flex align-items-center justify-content-center py-5 my-5">
     <StyledDiv id="whoWeAre">
       <h1 className="display-1 my-2">{t("WhoWeAreSection.h1")}</h1>
       <p>{t("WhoWeAreSection.p")}</p>

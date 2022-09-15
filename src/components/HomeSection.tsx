@@ -12,7 +12,7 @@ const StyledImage = styled.img`
   z-index: -10;
 `;
 const StyledDiv = styled.div`
-  width: 50vw;
+  width: 70vw;
   height: calc(100vh - 80px);
   display: flex;
   align-items: center;

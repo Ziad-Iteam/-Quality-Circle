@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 
 const StyledDiv = styled.div`
-  width: 50vw;
+  width: 70vw;
   display: flex;
   align-items: center;
   justify-content: center;

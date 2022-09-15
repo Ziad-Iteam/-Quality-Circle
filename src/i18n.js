@@ -40,6 +40,9 @@ i18n
             mauris. Curabitur ut dui quis enim euismod vulputate. Nunc nec auctor
             urna, id ornare erat. Pellentesque blandit dapibus ligula,`,
           },
+          ServicesSection: {
+            h1: "Lorem Ipsum",
+          },
         },
       },
       ar: {
@@ -76,6 +79,9 @@ i18n
             نيولا باراياتيور. أيكسسيبتيور ساينت أوككايكات كيوبايداتات نون بروايدينت ,سيونت ان كيولبا
             
             كيو أوفيسيا ديسيريونتموليت انيم أيدي ايست لابوريوم.`,
+          },
+          ServicesSection: {
+            h1: "لوريم ايبسوم",
           },
         },
       },

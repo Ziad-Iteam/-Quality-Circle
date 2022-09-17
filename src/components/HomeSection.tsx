@@ -21,18 +21,23 @@ const StyledDiv = styled.div`
   z-index: 10;
   color: white;
   text-align: center;
+  text-shadow: 1px 1px #000000;
 `;
 export const HomeSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="position-relative d-flex align-items-center justify-content-center" id="home">
-      <StyledImage src="./wallhaven-1jkl2w.jpg" alt="" />
+    <div
+      className="position-relative d-flex align-items-center justify-content-center"
+      id="home"
+    >
+      <StyledImage
+        src="./Abstract Blue Business Technology Wave Lines Vector Background.jpg"
+        alt=""
+      />
       <StyledDiv>
         <h1 className="display-1 my-2">{t("HomeSection.h1")}</h1>
-        <p>
-        {t("HomeSection.p")}
-        </p>
+        <p>{t("HomeSection.p")}</p>
       </StyledDiv>
     </div>
   );

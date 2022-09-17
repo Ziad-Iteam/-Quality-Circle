@@ -3,8 +3,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { useTranslation } from "react-i18next";
 import { resources } from "../i18n";
+
 export const ServicesSection = () => {
   const { t,i18n } = useTranslation();
+
   return (
     <div style={{ backgroundColor:"#565b6d" , color:"white"}} className="py-5">
       <h1 className="display-1 text-center ">{t("ServicesSection.h1")}</h1>

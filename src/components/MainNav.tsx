@@ -5,6 +5,24 @@ import Nav from "react-bootstrap/Nav";
 import { useTranslation } from "react-i18next";
 import { ReactComponent as ReactLogo } from "../assets/logo.svg";
 import { ReactComponent as ReactLogo2 } from "../assets/WhatsAppButtonWhiteSmall.svg";
+import styled from "styled-components";
+
+const NavLink = styled(Nav.Link)`
+  border-bottom: solid 5px rgb(161, 161, 161);
+  &:hover {
+    border-color: #565b6d;
+  }
+  &:active {
+    border-color: #363945;
+  }
+`;
+
+const StyledButton = styled.button`
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  border: none;
+  border-bottom: solid 5px rgb(161, 161, 161);
+  padding: 0.5rem;
+`;
 
 export const MainNav = () => {
   const { t, i18n } = useTranslation();
@@ -19,22 +37,22 @@ export const MainNav = () => {
     >
       <Container className="d-flex">
         <Navbar.Brand href="#home">
-          <ReactLogo className="mx-3" />
+          <ReactLogo className="mx-3" style={{ height: "32px" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="mx-3" />
         <Navbar.Collapse id="responsive-navbar-nav" className="flex-grow-0">
           <Nav className="text-center d-flex align-items-center justify-content-center">
-            <Nav.Link href="#whoWeAre" className="navlink-with-style mx-3">
+            <NavLink href="#whoWeAre" className="navlink-with-style mx-3">
               {" "}
               {t("MainNav.whoWeAre")}
-            </Nav.Link>
-            <Nav.Link href="#services" className="navlink-with-style mx-3">
+            </NavLink>
+            <NavLink href="#services" className="navlink-with-style mx-3">
               {" "}
               {t("MainNav.services")}
-            </Nav.Link>
+            </NavLink>
 
             <Nav.Link href="#lang">
-              <button
+              <StyledButton
                 className="ms-auto button-with-style"
                 onClick={() => {
                   i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
@@ -42,7 +60,7 @@ export const MainNav = () => {
                 }}
               >
                 {i18n.language === "ar" ? "English" : "العربية"}
-              </button>
+              </StyledButton>
             </Nav.Link>
             <Nav.Link href="#contactUs" className="mx-3">
               <a href="https://wa.me/201552349490">

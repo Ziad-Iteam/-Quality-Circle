@@ -11,6 +11,9 @@ const GlobalStyle = createGlobalStyle`
     font-family: roc-grotesk, sans-serif;
     font-style: normal;
 }
+body {
+  padding-top: 80px !important;
+}
 `;
 
 function App() {

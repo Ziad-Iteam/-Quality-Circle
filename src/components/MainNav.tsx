@@ -32,7 +32,7 @@ export const MainNav = () => {
       collapseOnSelect
       expand="lg"
       bg="light"
-      sticky="top"
+      fixed="top"
       className="py-3"
     >
       <Container className="d-flex">
@@ -42,18 +42,18 @@ export const MainNav = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="mx-3" />
         <Navbar.Collapse id="responsive-navbar-nav" className="flex-grow-0">
           <Nav className="text-center d-flex align-items-center justify-content-center">
-            <NavLink href="#whoWeAre" className="navlink-with-style mx-3">
+            <NavLink href="#whoWeAre" className="mx-3">
               {" "}
               {t("MainNav.whoWeAre")}
             </NavLink>
-            <NavLink href="#services" className="navlink-with-style mx-3">
+            <NavLink href="#services" className=" mx-3">
               {" "}
               {t("MainNav.services")}
             </NavLink>
 
-            <Nav.Link href="#lang">
+            <Nav.Link href="#">
               <StyledButton
-                className="ms-auto button-with-style"
+                className="ms-auto"
                 onClick={() => {
                   i18n.changeLanguage(i18n.language === "ar" ? "en" : "ar");
                   document.dir = i18n.language === "ar" ? "rtl" : "ltr";
@@ -62,10 +62,8 @@ export const MainNav = () => {
                 {i18n.language === "ar" ? "English" : "العربية"}
               </StyledButton>
             </Nav.Link>
-            <Nav.Link href="#contactUs" className="mx-3">
-              <a href="https://wa.me/201552349490">
-                <ReactLogo2 />
-              </a>
+            <Nav.Link className="mx-3" href="https://wa.me/201552349490">
+              <ReactLogo2 />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -32,7 +32,7 @@ export const HomeSection = () => {
       id="home"
     >
       <StyledImage
-        src="./Abstract Blue Business Technology Wave Lines Vector Background.jpg"
+        src="./wallhaven-1jkl2w.jpg"
         alt=""
       />
       <StyledDiv>

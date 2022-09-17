@@ -13,7 +13,7 @@ export const resources = {
         p: `We provide business analysis and design services to make your software match with your specific business goals and cover all the gaps`,
       },
       WhoWeAreSection: {
-        h1: "What we do?  “Think twice to cut once”",
+        h1: "What we do?",
         p: `We help you jump from idea to execution and launch on time, on budget and on specification, our team studies your business needs, goals, and objectives. The outcome is clear, actionable specifications, wireframes, requirements, and more to guide the development phase.`,
       },
       ServicesSection: {

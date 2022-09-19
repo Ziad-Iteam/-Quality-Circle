@@ -2,14 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
 
-const StyledImage = styled.img`
+const ParallaxDiv = styled.div`
+  background-image: url("./wallhaven-1jkl2w.jpg");
+  min-height: calc(100vh - 72px);
   width: 100vw;
-  height: calc(100vh - 72px);
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
   z-index: -10;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 const StyledDiv = styled.div`
   width: 70vw;
@@ -27,18 +28,14 @@ export const HomeSection = () => {
   const { t } = useTranslation();
 
   return (
-    <div
+    <ParallaxDiv
       className="position-relative d-flex align-items-center justify-content-center"
       id="home"
     >
-      <StyledImage
-        src="./wallhaven-1jkl2w.jpg"
-        alt=""
-      />
       <StyledDiv>
         <h1 className="display-1 my-2">{t("HomeSection.h1")}</h1>
         <p>{t("HomeSection.p")}</p>
       </StyledDiv>
-    </div>
+    </ParallaxDiv>
   );
 };

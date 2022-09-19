@@ -5,6 +5,7 @@ import { MainNav } from "./components/MainNav";
 import { ServicesSection } from "./components/ServicesSection";
 import { WhoWeAreSection } from "./components/WhoWeAreSection";
 import { createGlobalStyle } from "styled-components";
+import { ProductSection } from "./components/ProductSection";
 
 const GlobalStyle = createGlobalStyle`
 * {
@@ -24,6 +25,7 @@ function App() {
       <HomeSection />
       <WhoWeAreSection />
       <ServicesSection />
+      <ProductSection />
       <Footer />
     </div>
   );

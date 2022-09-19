@@ -50,7 +50,10 @@ export const MainNav = () => {
               {" "}
               {t("MainNav.services")}
             </NavLink>
-
+            <NavLink href="#products" className=" mx-3">
+              {" "}
+              {t("MainNav.products")}
+            </NavLink>
             <Nav.Link href="#">
               <StyledButton
                 className="ms-auto"

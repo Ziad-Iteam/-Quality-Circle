@@ -7,6 +7,7 @@ export const resources = {
       MainNav: {
         whoWeAre: "Who We Are",
         services: "Services",
+        products:"Products"
       },
       HomeSection: {
         h1: "Quality Circle for BUSINESS ANALYSIS",
@@ -55,6 +56,12 @@ export const resources = {
         ],
       },
       copyWrite: "Copyright Quality Circle",
+      productSection: {
+        title:"Products",
+        h1: "TeamBot",
+        h2: "Chabot that automates agile teams",
+        p: `Team collaboration is done through conversation, Now Stand ups, daily update, progress, check-ins, vacation requests and more…`,
+      },
     },
   },
   ar: {
@@ -62,6 +69,7 @@ export const resources = {
       MainNav: {
         whoWeAre: "من نحن",
         services: "خدماتنا",
+        products:"منتجاتنا"
       },
       HomeSection: {
         h1: "كوالتى سيركل لتحليل الأعمال",
@@ -109,6 +117,12 @@ export const resources = {
         ],
       },
       copyWrite: "جميع الحقوق محفوظه - كواليتي سيركل",
+      productSection: {
+        title:"منتجاتنا",
+        h1: "TeamBot",
+        h2: "شات بوت لتسهيل إدارة فرق الاجيل",
+        p: `تعاون فريقك الان من خلال تجربة المحادثة, حيث المهام الرئيسية من الاجتماعات اليومية و تسجيل الوصول والكثير...`,
+      },
     },
   },
 };

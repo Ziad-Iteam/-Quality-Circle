@@ -18,7 +18,7 @@ export const ServicesSection = () => {
     <div
       style={{
         padding: "100px 0",
-        backgroundColor: "#565b6d",
+        backgroundColor: "#9699a3",
         color: "white",
         display: "flex",
         flexDirection: "column",

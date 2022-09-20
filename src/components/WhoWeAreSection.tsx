@@ -23,7 +23,7 @@ export const WhoWeAreSection = () => {
     >
       <StyledDiv>
         <h1 className="display-1 my-5">{t("WhoWeAreSection.h1")}</h1>
-        <p>{t("WhoWeAreSection.p")}</p>
+        <h5>{t("WhoWeAreSection.p")}</h5>
       </StyledDiv>
     </div>
   );

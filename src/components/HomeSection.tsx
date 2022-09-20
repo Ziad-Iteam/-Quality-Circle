@@ -34,7 +34,7 @@ export const HomeSection = () => {
     >
       <StyledDiv>
         <h1 className="display-1 my-2">{t("HomeSection.h1")}</h1>
-        <p>{t("HomeSection.p")}</p>
+        <h3 className="my-4">{t("HomeSection.p")}</h3>
       </StyledDiv>
     </ParallaxDiv>
   );

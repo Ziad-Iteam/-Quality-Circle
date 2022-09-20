@@ -10,7 +10,7 @@ export const resources = {
         products:"Products"
       },
       HomeSection: {
-        h1: "Quality Circle for BUSINESS ANALYSIS",
+        h1: "Quality Circle",
         p: `We provide business analysis and design services to make your software match with your specific business goals and cover all the gaps`,
       },
       WhoWeAreSection: {
@@ -21,7 +21,7 @@ export const resources = {
         h1: "Our Services",
         services: [
           {
-            subH2: `1. Project discovery`,
+            subH2: `Project discovery`,
             subP: "To verify your idea, and focus more on the problem space.",
             ser: [
               "Set business needs",
@@ -31,7 +31,7 @@ export const resources = {
             ],
           },
           {
-            subH2: `2. Business analysis & design`,
+            subH2: `Business analysis & design`,
             subP: `Detailed analysis and documentation of the solution requirements and prioritize product features. 
             Analyze how the system would function (non-functional requirements)`,
             ser: [
@@ -43,7 +43,7 @@ export const resources = {
             ],
           },
           {
-            subH2: `3. IT Product ownership`,
+            subH2: `IT Product ownership`,
             subP: "Saving your time by representing the business in front of the software development team",
             ser: [
               "responsible for the project's outcomes.",
@@ -72,8 +72,8 @@ export const resources = {
         products:"منتجاتنا"
       },
       HomeSection: {
-        h1: "كوالتى سيركل لتحليل الأعمال",
-        p: `قدم خدمات تحليل الأعمال وتصميم البرمجيات حتى يكون منتجك متوافق مع احتياجاتك و فرص النمو لعملك.`,
+        h1: "كوالتى سيركل",
+        p: `نقدم خدمات تحليل الأعمال وتصميم البرمجيات حتى يكون منتجك متوافق مع احتياجاتك و فرص النمو لعملك.`,
       },
       WhoWeAreSection: {
         h1: "ماذا نفعل؟",
@@ -83,7 +83,7 @@ export const resources = {
         h1: "خدماتنا",
         services: [
           {
-            subH2: `1. اكتشاف المشروع`,
+            subH2: `اكتشاف المشروع`,
             subP: "للتحقق من فكرتك، والتركيز أكثر على مساحة المشكلة.",
             ser: [
               "تحديد احتياجات العمل",
@@ -93,7 +93,7 @@ export const resources = {
             ],
           },
           {
-            subH2: `2. تحليل وتصميم النظام`,
+            subH2: `تحليل وتصميم النظام`,
             subP: "تحليل وتوثيق مفصل لمتطلبات المنتج وتحديد أولويات و خصائص النظام. تحديد متطلبات المنتج الوظيفية (وغير الوظيفية)",
             ser: [
               "تحديد مفصل لنطاق المشروع",
@@ -104,7 +104,7 @@ export const resources = {
             ],
           },
           {
-            subH2: `3. ادارة المنتج `,
+            subH2: `ادارة المنتج `,
             subP: "توفير وقتك عن طريق إدارة فريق تطوير البرمجيات الخاص بمنتجك ",
             ser: [
               "مسؤولون عن نتائج المشروع.",
